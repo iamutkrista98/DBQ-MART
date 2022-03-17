@@ -16,6 +16,8 @@
     --body-font: 'Poppins', sans-serif;
     --heading-font: 'Gravitas One', cursive;
     --themecolor: #F2B34E;
+    --darkgrey: #272727;
+    --dark-featured-product: #313131;
 }
 
 html{
@@ -49,6 +51,56 @@ p{
     font-size: 16px;
 }
 
+.dark{
+    background-color: var(--darkgrey);
+    color: white;
+}
+
+.dark .icon span{
+    border: 2px solid white;
+}
+
+.dark .switches{
+    border: 2px solid white;
+}
+
+.dark .hero .text{
+    color: var(--primarytextcolor);
+}
+
+.dark .trader{
+    color: var(--primarytextcolor);
+}
+
+.dark .featured-product{
+    background-color: var(--dark-featured-product);
+}
+
+.dark .features{
+    background-color: var(--dark-featured-product);
+}
+
+.dark .middle-featured{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.dark .light-logo{
+    display: none;
+}
+
+.dark-logo{
+    display: none;
+}
+
+.dark .dark-logo{
+    display: block;
+}
+
+.dark footer{
+    color: white;
+}
+
 .container{
     width: 100%;
     max-width: 1225px;
@@ -65,7 +117,7 @@ p{
 
 .logo img{
     width: 150px;
-    height: 150px;
+    height: 100px;
 }
 
 .navbar{
@@ -127,7 +179,7 @@ p{
     width: 20px;
     height: 20px;
     background-color: var(--primarycolor);
-    top: 40px;
+    top: 20px;
     right: -10px;
     border: 2px solid black;
     border-radius: 50%;
@@ -145,6 +197,50 @@ p{
 .hamburger,
 .close{
     display: none;
+}
+
+.dark-toggle{
+    position: fixed;
+    right: 70px;
+}
+
+.switches{
+    background-color: wheat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.light-switch{
+    transition: 0.5s;
+    padding-right: 12px;
+    color: var(--primarycolor);
+}
+
+.light-switch:hover{
+    font-size: 24px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.dark-switch{
+    transition: 0.5s;
+}
+
+.dark-switch:hover{
+    font-size: 24px;
+    transition: 0.5s;
+    cursor: pointer;
+    color: var(--primarycolor);
+}
+
+.dark .light-switch{
+    color: var(--primarytextcolor);
+}
+
+.dark .dark-switch{
+    color: var(--primarycolor);
 }
 
 .search-bar{
@@ -416,7 +512,7 @@ p{
     gap: 20px 20px; 
     grid-template-areas: 
         ". . ."; 
-    margin-top: 32px;
+    margin: 32px 0px;
     box-shadow: 0px 1px 32px 0px rgba(0,0,0,0.23);
     border-radius: 32px;
 }
@@ -484,12 +580,12 @@ p{
 }
 
 .footer .text .title{
-    font-size: 32px;
+    font-size: 24px;
     font-family: var(--heading-font);
 }
 
 .footer .text .sub-title{
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 12px;
 }
 
@@ -498,7 +594,7 @@ p{
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
-    margin-top: 24px;
+    margin-top: 12px;
 }
 
 .first-footer-nav-icon{
@@ -506,39 +602,48 @@ p{
 }
 
 .newsletter{
-    margin-top: 24px;
+    margin-top: 12px;
     display: flex;
     align-items: center;
 }
 
 .newsletter .heading{
-    font-size: 24px;
+    font-size: 18px;
     text-transform: uppercase;
-    width: 80%;
+    width: 100%;
+    font-weight: 700;
 }
 
 .newsletter .footer-form{
     width: 100%;
 }
 
-.newsletter .footer-form input{
+.footer-form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
     width: 100%;
 }
 
-.newsletter .footer-form i{
+.footer-form form{
+    width: 100%;
+}
+
+.footer-form button{
+    position: absolute;
+    bottom: 1.8px;
     cursor: pointer;
-}
-
-.newsletter .footer-form button{
-    background: none;
+    color: white;
+    background-color: var(--primarycolor);
     border: none;
-    font-size: 18px;
+    padding: 2px 5px;
+    border-radius: 0px 2px 2px 0px;
 }
 
-.footer-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-form input{
+    width: 80%;
+    height: 100%;
 }
 
 .footer-contact{
@@ -548,16 +653,20 @@ p{
 
 .footer-contact-items{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
+.footer-contact-middle-item{
+    padding: 0px 16px;
+}
+
 .footer-contact-items span{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .footer-contact-items i{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .footer-contact-item{
@@ -585,7 +694,7 @@ p{
     }
 
     .icon span{
-        top: 35px;
+        top: 20px;
         right: -5px;
     }
 
@@ -616,6 +725,18 @@ p{
         grid-template-areas: 
             ". . ."; 
         margin-top: 32px;
+    }
+
+    .first-footer-nav-icon{
+        padding-left: 0px;
+    }
+
+    .footer-contact-middle-item{
+        padding: 0px 12px;
+    }
+
+    .footer-contact-items span{
+        font-size: 16px;
     }
 
 }
@@ -781,6 +902,42 @@ p{
         border-right: none;
     }
 
+    .footer-1{
+        flex: 0;
+        margin-bottom: 12px;
+    }
+
+    .footer-2{
+        flex: 0;
+    }
+
+    .footer{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }   
+
+    .footer-nav .icon{
+        font-size: 18px;
+    }
+
+    .footer-2 .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .found-anything .text{
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 525px){
@@ -796,6 +953,31 @@ p{
 
     .featured-product .text .btn{
         padding: 5px 5px;
+    }
+
+    .newsletter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .newsletter .heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .newsletter .footer-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-contact-items{
+        flex-direction: column;
     }
 
 }
@@ -894,6 +1076,7 @@ p{
             ". ."
             ". ."; 
     }
+
 }
 
 @media (max-width: 320px){

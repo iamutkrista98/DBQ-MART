@@ -5,19 +5,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./images/logo-no-tag-svg.svg">
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
   <link rel="stylesheet" href="./css/styles.css">
   <title>Daily Bread Quintessential</title>
 </head>
 
-<body id="body">
+<body id="body" class="">
+
   <header>
     <div class="container">
       <nav class="navbar">
         <div class="nav-elements">
           <div class="logo">
-            <img src="./images/logo-svg.svg" alt="">
+            <img src="./images/logo-no-tag-svg.svg" class="light-logo" alt="">
+            <img src="./images/Logo-Dark-nav.svg" alt="" class="dark-logo">
           </div>
           <div class="navbar-list">
             <div class="icon"><a href=""><i class='bx bx-home-alt '></i>Home</a></div>
@@ -48,6 +51,15 @@
     </div>
   </header>
   <!-- Header Ends -->
+
+  <div class="dark-toggle">
+    <div class="switches">
+      <div class="light-switch"><i class='bx bx-sun'></i></div>
+      <div class="dark-switch"><i class='bx bx-moon'></i></div>
+    </div>
+  </div>
+
+  <!-- Dark Mode Toggle Ends -->
 
   <section id="hero">
     <div class="container">
@@ -393,7 +405,8 @@
       <div class="footer">
         <div class="footer-1">
           <div class="footer-logo">
-            <img src="./images/logo-svg.svg" alt="">
+            <img src="./images/logo-svg.svg" class="light-logo" alt="">
+            <img src="./images/Logo-Dark.svg" alt="" class="dark-logo">
           </div>
         </div>
         <div class="footer-2">
@@ -411,8 +424,10 @@
           <div class="newsletter">
             <div class="heading">Subscribe to get latest update</div>
             <div class="footer-form">
-              <input type="email" placeholder="Your Email Here">
-              <button><i class='bx bx-search-alt'></i></button>
+              <form action="">
+                <input type="email" placeholder="Your Email Here" />
+                <button><i class='bx bx-search-alt'></i></button>
+              </form>
             </div>
           </div>
           <div class="footer-contact">
@@ -421,7 +436,7 @@
                 <i class='bx bx-phone-call'></i>
                 <span>123456</span>
               </div>
-              <div class="footer-contact-item">
+              <div class="footer-contact-item footer-contact-middle-item">
                 <i class='bx bx-location-plus'></i>
                 <span>Thapathali, Kathmandu</span>
               </div>

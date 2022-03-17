@@ -37,3 +37,13 @@ function showSlides(n) {
 const interval = setInterval(function () {
     plusSlides(1);
 }, 5000);
+
+const body = document.querySelector('#body');
+
+document.querySelector(".light-switch").onclick = () => {
+    body.classList.remove("dark");
+}
+
+document.querySelector(".dark-switch").onclick = () => {
+    body.classList.add("dark");
+}
