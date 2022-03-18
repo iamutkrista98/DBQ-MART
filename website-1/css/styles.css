@@ -597,6 +597,14 @@ p{
     margin-top: 12px;
 }
 
+.dark .footer-nav a{
+    color: white;
+}
+
+.footer-nav a{
+    color: var(--primarytextcolor);
+}
+
 .first-footer-nav-icon{
     padding-left: 0px;
 }

@@ -8,6 +8,8 @@ document.querySelector(".close").onclick = () => {
     navbarList.classList.remove("show");
 }
 
+//For NavBar Ends
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -38,12 +40,28 @@ const interval = setInterval(function () {
     plusSlides(1);
 }, 5000);
 
+//For Hero Ends
+
 const body = document.querySelector('#body');
 
 document.querySelector(".light-switch").onclick = () => {
     body.classList.remove("dark");
+    localStorage.clear();
+    localStorage.setItem("themeStatus", "light");
 }
 
 document.querySelector(".dark-switch").onclick = () => {
     body.classList.add("dark");
+    localStorage.clear();
+    localStorage.setItem("themeStatus", "dark");
 }
+
+if (localStorage.getItem("themeStatus") == "dark") {
+    body.classList.add("dark");
+}
+
+if (localStorage.getItem("themeStatus") == "light") {
+    body.classList.remove("dark");
+}
+//For Dark Mode Ends
+
