@@ -31,15 +31,15 @@
         <div class="footer-contact-items">
           <div class="footer-contact-item">
             <i class='bx bx-phone-call'></i>
-            <span>123456</span>
+            <span>+44 123456</span>
           </div>
           <div class="footer-contact-item footer-contact-middle-item">
             <i class='bx bx-location-plus'></i>
-            <span>Thapathali, Kathmandu</span>
+            <span>Cleckhuddersfax, Huddersfield, United Kingdom</span>
           </div>
           <div class="footer-contact-item">
             <i class='bx bx-envelope'></i>
-            <span>dbqmart@rohanpoudel.com</span>
+            <span>dbqmart@gmail.com</span>
           </div>
         </div>
       </div>
