@@ -1,0 +1,67 @@
+.popup-window-container{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+}
+
+.popup-window{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--themecolor);
+  border-radius: 32px;
+  height: 20vh;
+  transition: 0.2s;
+  display: none;
+  position: relative;
+  width: 50%;
+}
+
+.popup-close{
+  position: absolute;
+  right: 15px;
+  top: 0;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.buttons button{
+  color: white;
+  background-color: var(--primarycolor);
+  border-radius: 32px;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.seller-btn{
+  padding: 0px 10px;
+}
+
+.popup-active{
+  display: flex;
+  animation: myAnim 0.5s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: rotateX(-100deg);
+    transform-origin: top;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+    transform-origin: top;
+  }
+}

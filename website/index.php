@@ -21,6 +21,7 @@
   <header>
     <?PHP
     include "./components/nav/nav.php";
+    include "./components/loginPopup/loginPopup.php";
     ?>
   </header>
   <!-- Header Ends -->

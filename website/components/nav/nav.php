@@ -6,8 +6,8 @@
         <img src="./images/Logo-Dark-nav.svg" alt="" class="dark-logo">
       </div>
       <div class="navbar-list">
-        <div class="icon"><a href=""><i class='bx bx-home-alt '></i>Home</a></div>
-        <div class="icon"><a href=""><i class='bx bx-store'></i>Traders</a></div>
+        <div class="icon"><a href="./index.php"><i class='bx bx-home-alt '></i>Home</a></div>
+        <div class="icon"><a href=""><i class='bx bx-store'></i>Shops</a></div>
         <div class="icon"><a href=""><i class='bx bx-package'></i>Products</a></div>
         <div class="icon"><a href=""><i class='bx bx-been-here'></i>Pickup</a>
         </div>
@@ -16,7 +16,7 @@
         </div>
         <div class="icons">
           <div class="icon"><a href=""><i class='bx bx-search-alt'></i>Search</a></div>
-          <div class="icon"><a href="./login.html"><i class='bx bx-user'></i>Login</a></div>
+          <div class="icon login"><a href="#"><i class='bx bx-user'></i>Login</a></div>
           <div class="icon cart"><a href=""><i class='bx bx-cart'></i>Cart<span>2</span></a></div>
         </div>
       </div>

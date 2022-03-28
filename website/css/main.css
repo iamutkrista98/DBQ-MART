@@ -4,6 +4,7 @@
 @import url(../components/darkToggle/darkToggle.css);
 @import url(../components/nav/nav.css);
 @import url(../components/footer/footer.css);
+@import url(../components/loginPopup/loginPopup.css);
 
 *,
 *::before,

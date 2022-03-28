@@ -66,6 +66,10 @@
   color: white;
 }
 
+.dark .popup-window{
+  color: var(--primarytextcolor);
+}
+
 
 @media (max-width: 768px){
 .dark .middle-featured{
