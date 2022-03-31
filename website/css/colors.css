@@ -4,8 +4,11 @@
   --secondarycolor: #03C0C1;
   --primarytextcolor: #333;
   --themecolor: #F2B34E;
+  /* --themecolor: #FFBF00; */
   --darkgrey: #272727;
   --dark-featured-product: #313131;
+  --login-page-color:#FFBF00;
+  --register-page-color: #228C22;
 }
 
 

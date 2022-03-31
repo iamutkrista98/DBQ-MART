@@ -12,7 +12,7 @@
     </div>
     <div class="hero hero-2">
       <div class="hero-image">
-        <img src="./images/hero-2.png" alt="">
+        <img src="./images/hero-2.jpg" alt="">
         <div class="text">
           <h1 class="heading">Mister<br />AK Jha</h1>
           <p class="tagline">At Just <span class="price">$55</span></p>

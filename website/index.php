@@ -64,6 +64,7 @@
   </footer>
   <!-- Footer Ends -->
   <script src="./js/main.js"></script>
+  <script src="./js/hero.js"></script>
 </body>
 
 </html>
