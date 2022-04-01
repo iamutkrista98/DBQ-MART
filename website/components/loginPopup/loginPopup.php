@@ -9,10 +9,10 @@
       </div>
       <div class="buttons">
         <div class="buyer-btn">
-          <a href="./login.php?usertype=buyer"><button>Buyer</button></a>
+          <a href="./login.php?usertype=Buyer"><button>Buyer</button></a>
         </div>
         <div class="seller-btn">
-          <a href="./login.php?usertype=seller"><button>Seller</button></a>
+          <a href="./login.php?usertype=Seller"><button>Seller</button></a>
         </div>
       </div>
     </div>

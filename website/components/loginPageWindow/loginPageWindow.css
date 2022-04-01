@@ -1,4 +1,3 @@
-
 .img-box img {
   width: 100%;
   height: 100%;
@@ -11,7 +10,7 @@
 #login-box {
   position: relative;
   min-height: 100vh;
-  background-color: var(--login-page-color);
+  background-color: var(--themecolor);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +19,7 @@
 }
 
 #login-box.active {
-  background-color: var(--register-page-color);
+  background-color: var(--themecolor);
 }
 
 .login-box-window {

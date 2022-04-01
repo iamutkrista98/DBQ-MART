@@ -1,16 +1,33 @@
+<?PHP
+if ($_GET['usertype'] == null) {
+  header('Location: ./index.php');
+}
+?>
 <section id="login-box">
   <div class="login-box-window">
     <div class="user login">
       <div class="img-box">
-        <img src="./images/login-page/Hello There.png" alt="" />
+        <?PHP
+        if ($_GET['usertype'] == 'Seller') {
+          echo "<img src=\"./images/login-page/Hello There.png\" />";
+        }
+        if ($_GET['usertype'] == 'Buyer') {
+          echo "<img src=\"./images/login-page/customer-login.png\" />";
+        }
+        ?>
       </div>
       <div class="form-box">
         <div class="top">
-          <p> Not a User? <span>Register now</span>
-          </p>
+          <p> Not a User? <span>Register now</span></p>
         </div>
         <form action="" class="form">
           <div class="form-control">
+            <p>Login Type:<strong>
+                <?PHP
+                echo $_GET['usertype'];
+                ?>
+              </strong>
+            </p>
             <h2>Hello There!</h2>
             <p>We're glad to see you back.</p>
             <input type="text" placeholder="Enter Username" />
@@ -48,6 +65,12 @@
         </div>
         <form action="" class="form">
           <div class="form-control">
+            <p>Login Type:<strong>
+                <?PHP
+                echo $_GET['usertype'];
+                ?>
+              </strong>
+            </p>
             <h2>Welcome to DBQ Mart</h2>
             <p>It's good to have you here.</p>
             <input type="email" placeholder="Enter Email" />
@@ -79,7 +102,14 @@
         </form>
       </div>
       <div class="img-box">
-        <img src="./images/login-page/register.png" alt="" />
+        <?PHP
+        if ($_GET['usertype'] == 'Seller') {
+          echo "<img src=\"./images/login-page/register.png\" />";
+        }
+        if ($_GET['usertype'] == 'Buyer') {
+          echo "<img src=\"./images/login-page/customer-register.png\" />";
+        }
+        ?>
       </div>
     </div>
   </div>
