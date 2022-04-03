@@ -86,7 +86,21 @@
   background-color: var(--darkgrey);
 }
 
+.dark .hamburger {
+  color: white;
+}
 
+.dark .navbar-list {
+  background-color: var(--darkgrey);
+}
+
+.dark .close {
+  color: white;
+}
+
+.dark .icons {
+  border-top: 1px solid white;
+}
 
 @media (max-width: 768px) {
   .dark .middle-featured {
