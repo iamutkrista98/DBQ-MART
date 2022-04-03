@@ -1,0 +1,44 @@
+@import url(../homeDeals/homDeals.css);
+
+.products-page {
+  display: flex;
+  margin-top: 20px;
+}
+
+.products-filter {
+  flex: 0.2;
+}
+
+.all-products {
+  flex: 1;
+}
+
+.sorting-filter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sorting-filter .sort-by-first {
+  padding-right: 20px;
+}
+
+.sorting-filter .order-by-first {
+  padding-right: 20px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+}
+
+.filters input {
+  margin-right: 10px;
+}
+
+.filter-title {
+  margin-bottom: 10px;
+}
+
+.filters-last {
+  margin-bottom: 50px;
+}

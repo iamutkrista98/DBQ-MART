@@ -8,7 +8,7 @@
       <div class="navbar-list">
         <div class="icon"><a href="./index.php"><i class='bx bx-home-alt '></i>Home</a></div>
         <div class="icon"><a href=""><i class='bx bx-store'></i>Shops</a></div>
-        <div class="icon"><a href=""><i class='bx bx-package'></i>Products</a></div>
+        <div class="icon"><a href="./products.php"><i class='bx bx-package'></i>Products</a></div>
         <div class="icon"><a href=""><i class='bx bx-been-here'></i>Pickup</a>
         </div>
         <div class="close nav-toggle">
