@@ -6,7 +6,7 @@
       </div>
       <div class="filters">
         <input type="checkbox" id="masu" name="Masu" value="Masu">
-        <label for="masu">Masu</label><br>
+        <label for="masu">Meat</label><br>
         <span>(69)</span>
       </div>
       <div class="filters">
@@ -34,11 +34,11 @@
       </div>
       <div class="filters">
         <input type="checkbox" id="firstshop" name="firstshop" value="Utkrista Ko Masu Pasal">
-        <label for="masu">Utkrista Ko Masu Pasal</label><br>
+        <label for="masu">Stricklin Meat Shop</label><br>
       </div>
       <div class="filters">
         <input type="checkbox" id="secondshop" name="secondshop" value="Shiva ji ko Butti Pasal">
-        <label for="masu">Shiva ji ko Butti Pasal</label><br>
+        <label for="masu">Cleckhuddersfax Delicateseen</label><br>
       </div>
     </div>
     <div class="all-products">
@@ -78,7 +78,7 @@
               </div>
               <div class="price-btn">
                 <div class="prices">
-                  <h1 class="price new-price">$10.69</h1>
+                  <h1 class="price new-price">£10.69</h1>
                 </div>
                 <button class="btn">Add to Cart</button>
               </div>
@@ -88,7 +88,7 @@
             <img src="./images/trader-1.png" alt="">
             <div class="text">
               <div class="title-category">
-                <h1 class="title">Pork Masu</h1>
+                <h1 class="title">Pork</h1>
                 <h5 class="category">Meat</h5>
               </div>
               <div class="review-star">
@@ -101,7 +101,7 @@
               </div>
               <div class="price-btn">
                 <div class="prices">
-                  <h1 class="price new-price">$10.69</h1>
+                  <h1 class="price new-price">£10.69</h1>
                 </div>
                 <button class="btn">Add to Cart</button>
               </div>
@@ -111,7 +111,7 @@
             <img src="./images/trader-1.png" alt="">
             <div class="text">
               <div class="title-category">
-                <h1 class="title">Pork Masu</h1>
+                <h1 class="title">Pork</h1>
                 <h5 class="category">Meat</h5>
               </div>
               <div class="review-star">
@@ -124,7 +124,7 @@
               </div>
               <div class="price-btn">
                 <div class="prices">
-                  <h1 class="price new-price">$10.69</h1>
+                  <h1 class="price new-price">£10.69</h1>
                 </div>
                 <button class="btn">Add to Cart</button>
               </div>
@@ -134,7 +134,7 @@
             <img src="./images/trader-1.png" alt="">
             <div class="text">
               <div class="title-category">
-                <h1 class="title">Pork Masu</h1>
+                <h1 class="title">Pork</h1>
                 <h5 class="category">Meat</h5>
               </div>
               <div class="review-star">
@@ -147,7 +147,7 @@
               </div>
               <div class="price-btn">
                 <div class="prices">
-                  <h1 class="price new-price">$10.69</h1>
+                  <h1 class="price new-price">£10.69</h1>
                 </div>
                 <button class="btn">Add to Cart</button>
               </div>
@@ -157,7 +157,7 @@
             <img src="./images/trader-1.png" alt="">
             <div class="text">
               <div class="title-category">
-                <h1 class="title">Pork Masu</h1>
+                <h1 class="title">Pork</h1>
                 <h5 class="category">Meat</h5>
               </div>
               <div class="review-star">
@@ -170,7 +170,7 @@
               </div>
               <div class="price-btn">
                 <div class="prices">
-                  <h1 class="price new-price">$10.69</h1>
+                  <h1 class="price new-price">£10.69</h1>
                 </div>
                 <button class="btn">Add to Cart</button>
               </div>
@@ -180,7 +180,7 @@
             <img src="./images/trader-1.png" alt="">
             <div class="text">
               <div class="title-category">
-                <h1 class="title">Pork Masu</h1>
+                <h1 class="title">Pork</h1>
                 <h5 class="category">Meat</h5>
               </div>
               <div class="review-star">
@@ -193,7 +193,7 @@
               </div>
               <div class="price-btn">
                 <div class="prices">
-                  <h1 class="price new-price">$10.69</h1>
+                  <h1 class="price new-price">£10.69</h1>
                 </div>
                 <button class="btn">Add to Cart</button>
               </div>
