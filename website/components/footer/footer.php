@@ -15,7 +15,7 @@
         <div class="icon first-footer-nav-icon"><a href=""><i class='bx bx-home-alt '></i>Home</a></div>
         <div class="icon"><a href=""><i class='bx bx-store'></i>Traders</a></div>
         <div class="icon"><a href=""><i class='bx bx-package'></i>Products</a></div>
-        <div class="icon"><a href=""><i class='bx bx-been-here'></i>Pickup</a>
+        <div class="icon"><a href=""><i class='bx bx-info-circle'></i>About Us</a>
         </div>
       </div>
       <div class="newsletter">
