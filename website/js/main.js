@@ -34,14 +34,12 @@ if (localStorage.getItem("themeStatus") == "light") {
 }
 //For Dark Mode Ends
 
-const loginButton = document.querySelector('.popup-window');
-
-document.querySelector(".login").onclick = () => {
-  loginButton.classList.add("popup-active");
+function openSearch() {
+  document.getElementById("myOverlay").style.display = "block";
 }
 
-document.querySelector(".popup-close").onclick = () => {
-  loginButton.classList.remove("popup-active");
+function closeSearch() {
+  document.getElementById("myOverlay").style.display = "none";
 }
 
 //For Popup Window Ends

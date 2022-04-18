@@ -15,7 +15,7 @@
         <div class="icon first-footer-nav-icon"><a href=""><i class='bx bx-home-alt '></i>Home</a></div>
         <div class="icon"><a href=""><i class='bx bx-store'></i>Traders</a></div>
         <div class="icon"><a href=""><i class='bx bx-package'></i>Products</a></div>
-        <div class="icon"><a href=""><i class='bx bx-info-circle'></i>About Us</a>
+        <div class="icon"><a href=""><i class='bx bx-been-here'></i>Pickup</a>
         </div>
       </div>
       <div class="newsletter">
@@ -31,15 +31,15 @@
         <div class="footer-contact-items">
           <div class="footer-contact-item">
             <i class='bx bx-phone-call'></i>
-            <span>+441234567</span>
+            <span>123456</span>
           </div>
           <div class="footer-contact-item footer-contact-middle-item">
             <i class='bx bx-location-plus'></i>
-            <span>Cleckhuddersfax, United Kingdom</span>
+            <span>Thapathali, Kathmandu</span>
           </div>
           <div class="footer-contact-item">
             <i class='bx bx-envelope'></i>
-            <span>dbqmart@gmail.com</span>
+            <span>dbqmart@rohanpoudel.com</span>
           </div>
         </div>
       </div>

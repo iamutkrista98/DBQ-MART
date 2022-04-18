@@ -16,7 +16,6 @@
   <header>
     <?PHP
     include "./components/nav/nav.php";
-    include "./components/loginPopup/loginPopup.php";
     ?>
   </header>
   <!-- Header Ends -->
@@ -25,6 +24,7 @@
   ?>
   <!-- Dark Toggle Ends -->
   <?PHP
+  include "./components/searchbox/searchbox.php";
   include "./components/loginPageWindow/loginPageWindow.php";
   ?>
   <!-- Login Page Ends -->

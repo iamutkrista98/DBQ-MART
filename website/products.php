@@ -17,7 +17,6 @@
   <header>
     <?PHP
     include "./components/nav/nav.php";
-    include "./components/loginPopup/loginPopup.php";
     ?>
   </header>
   <!-- Header Ends -->
@@ -26,6 +25,7 @@
   ?>
   <!-- Dark Toggle Ends -->
   <?PHP
+  include "./components/searchbox/searchbox.php";
   include "./components/productsPage/productsPage.php";
   ?>
   <!-- Products Page Ends -->
@@ -34,6 +34,7 @@
   ?>
   <script src="./js/main.js"></script>
   <script src="./js/login.js"></script>
+  <script src="./js/product-filter.js"></script>
 </body>
 
 </html>

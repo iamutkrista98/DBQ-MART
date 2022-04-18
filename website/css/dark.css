@@ -98,6 +98,19 @@
   color: white;
 }
 
+.dark #products-page {
+  border: 1px solid white;
+}
+
+.dark .sorting-filter {
+  background-color: var(--dark-featured-product);
+  border-radius: 32px;
+}
+
+.dark .all-products .featured-product {
+  box-shadow: none;
+}
+
 
 @media (max-width: 768px) {
   .dark .middle-featured {

@@ -21,11 +21,11 @@
   <header>
     <?PHP
     include "./components/nav/nav.php";
-    include "./components/loginPopup/loginPopup.php";
     ?>
   </header>
   <!-- Header Ends -->
   <?PHP
+  include "./components/searchbox/searchbox.php";
   include "./components/darkToggle/darkToggle.php";
   ?>
   <!-- Dark Toggle Ends -->

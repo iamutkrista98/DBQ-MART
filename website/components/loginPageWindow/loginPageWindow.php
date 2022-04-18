@@ -50,6 +50,9 @@ if ($_GET['usertype'] == null) {
                 <img src="./images/login-page/facebook.svg" alt="" />
               </div>
             </div>
+            <a href="#">
+              Login as a Seller ?
+            </a>
           </div>
         </form>
       </div>
@@ -98,6 +101,9 @@ if ($_GET['usertype'] == null) {
                 <img src="./images/login-page/facebook.svg" alt="" />
               </div>
             </div>
+            <a href="#">
+              Login as a Seller ?
+            </a>
           </div>
         </form>
       </div>
