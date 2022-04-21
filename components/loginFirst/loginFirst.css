@@ -1,0 +1,59 @@
+.seller-choice img,
+.buyer-choice img {
+  width: 550px;
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.loginFirst-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seller-choice {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.buyer-choice {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.loginFirst-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--heading-font);
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.seller-choice h1,
+.buyer-choice h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 98px;
+  color: white;
+  opacity: 0;
+  transition: 0.5s;
+  cursor: pointer;
+  text-shadow: 2px 2px 17px rgba(0, 0, 0, 0.19);
+}
+
+.seller-choice:hover h1 {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.buyer-choice:hover h1 {
+  opacity: 1;
+  transition: 0.5s;
+}
