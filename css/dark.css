@@ -29,10 +29,12 @@
 
 .dark .featured-product {
   background-color: var(--dark-featured-product);
+  box-shadow: none !important;
 }
 
 .dark .features {
   background-color: var(--dark-featured-product);
+  box-shadow: none !important;
 }
 
 .dark .middle-featured {
@@ -98,9 +100,10 @@
   color: white;
 }
 
+/* 
 .dark #products-page {
   border: 1px solid white;
-}
+} */
 
 .dark .sorting-filter {
   background-color: var(--dark-featured-product);

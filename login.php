@@ -10,13 +10,17 @@
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./components/loginFirst/loginFirst.css">
   <?PHP
-    if($_GET['loginpoint']=="sellerLogin"){
-  ?>
-  <link rel="stylesheet" href="./components/sellerLogin/sellerLogin.css">
-  <?PHP
-    } else if($_GET['loginpoint']=="registerseller"){
+    if($_GET['loginpoint']=="registerseller"){
   ?>
   <link rel="stylesheet" href="./components/sellerSignUp/sellerSignUp.css">
+  <?PHP
+    }  else if($_GET['loginpoint']=="customersignup"){
+  ?>
+  <link rel="stylesheet" href="./components/customerSignup/customerSignup.css">
+  <?PHP
+    } else if($_GET['loginpoint']=="customerlogin"){
+  ?>
+  <link rel="stylesheet" href="./components/customerLogin/customerLogin.css">
   <?PHP
     }
   ?>
@@ -42,11 +46,14 @@
     if($_GET['loginpoint']=="mainpage"){
       include "./components/loginFirst/loginFirst.php";
     }
-    else if($_GET['loginpoint']=="sellerLogin"){
-      include "./components/sellerLogin/sellerLogin.php";
-    }
     else if($_GET['loginpoint']=="registerseller"){
       include "./components/sellerSignUp/sellerSignUp.php";
+    }
+    else if($_GET['loginpoint']=="customersignup"){
+      include "./components/customerSignup/customerSignup.php";
+    }
+    else if($_GET['loginpoint']=="customerlogin"){
+      include "./components/customerLogin/customerLogin.php";
     }
     else{
       header('Location: ./index.php');
