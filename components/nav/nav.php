@@ -16,7 +16,8 @@
           <i class='bx bx-x'></i>
         </div>
         <div class="icons">
-          <div class="icon" onclick="openSearch()"><a href="#"><i class='bx bx-search-alt'></i>Search</a></div>
+          <div class="icon search-icon-nav" onclick="openSearch()"><a href="#"><i
+                class='bx bx-search-alt'></i>Search</a></div>
           <div class="icon"><a href="./login.php?loginpoint=mainpage">
               <i class='bx bx-user'></i>Login
             </a>

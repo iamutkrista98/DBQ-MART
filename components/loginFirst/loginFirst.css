@@ -53,6 +53,8 @@
   transition: 0.5s;
   cursor: pointer;
   text-shadow: 2px 2px 17px rgba(0, 0, 0, 0.19);
+  background-color: var(--primarycolor);
+  border-radius: 32px;
 }
 
 .seller-choice:hover h1 {
