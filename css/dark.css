@@ -105,6 +105,16 @@
   border: 1px solid white;
 } */
 
+.dark .product-page-features {
+  box-shadow: none;
+  background-color: var(--dark-featured-product);
+}
+
+.dark .product-section-second-section-related-product {
+  background-color: var(--dark-featured-product);
+  box-shadow: none;
+}
+
 .dark .sorting-filter {
   background-color: var(--dark-featured-product);
   border-radius: 32px;
