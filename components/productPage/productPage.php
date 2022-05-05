@@ -31,16 +31,6 @@
               You Save: £80
             </div>
           </div>
-          <div class="product-page-features">
-            <div class="product-page-feature product-page-feature-first-feature">
-              <i class='bx bx-store-alt'></i>
-              Return Policy
-            </div>
-            <div class="product-page-feature">
-              <i class='bx bxs-hand'></i>
-              Easy PickUp
-            </div>
-          </div>
           <div class="product-page-availability-status">
             <div class="product-page-in-stock">
               In Stock
@@ -120,8 +110,28 @@
           vitae minima eveniet aliquid atque, voluptatibus porro! Optio impedit reiciendis rem cumque iusto minima,
           quibusdam ex!</p>
       </div>
-    </div>
-    <div class="product-section-fourth-section">
-
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">
+            <i class='bx bx-lock-alt'></i>
+          </div>
+          <div class="title">Secure Shopping</div>
+          <div class="sub-title">We are committed to protecting the security of your information</div>
+        </div>
+        <div class="feature middle-featured">
+          <div class="feature-icon">
+            <i class='bx bx-package'></i>
+          </div>
+          <div class="title">Quality Checked</div>
+          <div class="sub-title">We are providing top quality genuine products and service.</div>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">
+            <i class='bx bx-store-alt'></i>
+          </div>
+          <div class="title">Easy Return</div>
+          <div class="sub-title">Easy returns on our products, Returns are free and easy!</div>
+        </div>
+      </div>
     </div>
 </section>

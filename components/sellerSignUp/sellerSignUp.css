@@ -11,7 +11,6 @@
 
 .seller-login-form {
   flex: 1;
-
 }
 
 .seller-login-picture img {
@@ -69,7 +68,6 @@
 }
 
 .seller-login-form button:hover {
-  background-color: var(--secondarycolor);
   transition: 0.5s;
 }
 
@@ -78,6 +76,7 @@
   .seller-login-picture {
     display: none;
   }
+
 }
 
 @media (max-width: 303px) {

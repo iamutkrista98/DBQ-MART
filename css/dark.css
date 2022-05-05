@@ -144,6 +144,22 @@
   color: white;
 }
 
+.dark .product-page-in-stock {
+  color: var(--okcolor-dark-mode);
+}
+
+.dark .cart-right {
+  color: var(--primarytextcolor);
+}
+
+.dark .cart-left-title,
+.dark .cart-product {
+  border-bottom: 1px solid white;
+}
+
+.dark .cart-product-stock {
+  border: 1px solid white;
+}
 
 @media (max-width: 768px) {
   .dark .middle-featured {

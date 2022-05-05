@@ -22,7 +22,7 @@
               <i class='bx bx-user'></i>Login
             </a>
           </div>
-          <div class="icon cart"><a href=""><i class='bx bx-cart'></i>Cart<span>2</span></a></div>
+          <div class="icon cart"><a href="./cart.php"><i class='bx bx-cart'></i>Cart<span>2</span></a></div>
         </div>
       </div>
       <div class="hamburger nav-toggle">

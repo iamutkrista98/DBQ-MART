@@ -8,9 +8,8 @@
   <link rel="icon" type="image/x-icon" href="./images/logo-no-tag-svg.svg">
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./components/productPage/productPage.css">
-  <link rel="stylesheet" href="./components/features/features.css">
-  <title>DBQ Mart - Product Title</title>
+  <link rel="stylesheet" href="./components/cartPage/cartPage.css">
+  <title>DBQ Mart - Cart</title>
 </head>
 
 <body id="body">
@@ -29,16 +28,16 @@
   ?>
   <!-- SearchBox Ends -->
   <?PHP
-  include "./components/productPage/productPage.php";
+  include "./components/cartPage/cartPage.php";
   ?>
-  <!-- Product Page Ends -->
+  <!-- Cart Page Ends -->
   <?PHP
   include "./components/footer/footer.php";
   ?>
   <!-- Footer Ends -->
 
   <script src="./js/main.js"></script>
-
+  <script src="./js/cart.js"></script>
 </body>
 
 </html>
