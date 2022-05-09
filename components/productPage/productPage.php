@@ -133,5 +133,60 @@
           <div class="sub-title">Easy returns on our products, Returns are free and easy!</div>
         </div>
       </div>
+      <div class="product-section-reviews">
+        <div class="product-section-reviews-title">
+          <h5>Reviews</h5>
+        </div>
+        <div class="product-section-review">
+          <div class="product-section-review-first-section">
+            <div class="product-section-reviews-icon">
+              <i class='bx bx-user-circle'></i>
+            </div>
+            <div class="product-section-review-first-second-section">
+              <div class="product-section-reviews-username">
+                <h6>Rohan Poudel</h6>
+                <div class="product-section-reviews-stars">
+                  <div class="product-page-rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                    <span class="review-numbers">(69)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product-section-reviews-review-text">
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui dolorem </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-section-review">
+          <div class="product-section-review-first-section">
+            <div class="product-section-reviews-icon">
+              <i class='bx bx-user-circle'></i>
+            </div>
+            <div class="product-section-review-first-second-section">
+              <div class="product-section-reviews-username">
+                <h6>Pork Poudel</h6>
+                <div class="product-section-reviews-stars">
+                  <div class="product-page-rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                    <span class="review-numbers">(69)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product-section-reviews-review-text">
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui dolorem </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 </section>

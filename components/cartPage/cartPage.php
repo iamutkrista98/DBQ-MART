@@ -3,7 +3,7 @@
     <div class="cart-page-elements">
       <div class="cart-left">
         <div class="cart-left-title">
-          <h5>Cart</h5>
+          <h5>DBQ Mart Shopping Cart</h5>
         </div>
         <div class="cart-products">
           <div class="cart-product">

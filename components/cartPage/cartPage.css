@@ -10,6 +10,11 @@
 
 .cart-left-title {
   border-bottom: 1px solid var(--darkgrey);
+  background-color: var(--themecolor);
+  border-radius: 32px;
+  padding: 10px;
+  border: none;
+  text-align: center;
 }
 
 .cart-product-left {
