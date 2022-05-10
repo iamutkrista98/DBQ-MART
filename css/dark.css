@@ -161,6 +161,18 @@
   border: 1px solid white;
 }
 
+.dark .product-section-second-section-title h4 {
+  color: var(--darkgrey);
+}
+
+.dark .product-section-review {
+  border-color: white;
+}
+
+.dark .cart-left-title h5 {
+  color: var(--darkgrey);
+}
+
 @media (max-width: 768px) {
   .dark .middle-featured {
     border-top: 1px solid white;
