@@ -173,6 +173,10 @@
   color: var(--darkgrey);
 }
 
+.dark .customerpage-customer-info h5 {
+  color: var(--darkgrey);
+}
+
 @media (max-width: 768px) {
   .dark .middle-featured {
     border-top: 1px solid white;
