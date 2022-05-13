@@ -38,6 +38,7 @@
 
   <script src="./js/main.js"></script>
   <script src="./js/cart.js"></script>
+  <script src="./js/dark.js"></script>
 </body>
 
 </html>

@@ -34,6 +34,7 @@
   <script src="./js/main.js"></script>
   <script src="./js/login.js"></script>
   <script src="./js/product-filter.js"></script>
+  <script src="./js/dark.js"></script>
 </body>
 
 </html>
